@@ -103,7 +103,7 @@ internal static partial class Il2CppInteropManager
 
     private static readonly ConfigEntry<string> GlobalMetadataPath = ConfigFile.CoreConfig.Bind(
      "IL2CPP", "GlobalMetadataPath",
-     "{GameDataPath}/il2cpp_data/Metadata/global-metadata.dat",
+     "{GameDataPath}/global-metadata.dat",
      new StringBuilder()
          .AppendLine("The path to the IL2CPP metadata file.")
          .AppendLine("Supports the following placeholders:")
